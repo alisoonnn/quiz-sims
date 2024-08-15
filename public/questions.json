@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Avec quelle nouvelle personne pouvez-vous entraîner une bagarre dans le pack d'expansion Saison ?",
+        "answer": "Père Noël",
+        "options": [
+            "Agent de police",
+            "Cambrioleur",
+            "Père Noël"
+        ],
+        "explanation": "Et oui ! Dans ce nouveau pack d'expansion, vous pouvez désormais vous battre avec le Père Noël afin d'obtenir un cadeau. Il suffit d'avoir le trait de caractère maléfique, sanguin, capricieux ou enfantin.",
+        "image": "img/question_bagarre.PNG"
+    },
+    {
+        "id": 2,
+        "question": "Comment se fait appeler cet objet au-dessus de la tête des Sims ?",
+        "answer": "Plumbob",
+        "options": [
+            "Prisme",
+            "Étoile",
+            "Plumbob"
+        ],
+        "explanation": "C'est un Plumbob ! Il est maintenant bien associé à la franchise des Sims !",
+        "image": "img/question_plumbob.png"
+    },
+    {
+        "id": 3,
+        "question": "Comment s'appelle le langage que parlent les Sims ?",
+        "answer": "Simlish",
+        "options": [
+            "Simlish",
+            "Simspeak",
+            "Simian"
+        ],
+        "explanation": "Le Simlish ! Les développeurs du jeu ont préféré utiliser le ton et l'intonation pour exprimer des émotions, plutôt qu'un langage réel.",
+        "image": "img/question_simlish.png"
+    },
+    {
+        "id": 4,
+        "question": "Quelles langues sont combinées pour créer le Simlish ?",
+        "answer": "L'ukrainien, le français, le latin, le finnois, l'anglais, le fidjien, le cebuano et le tagalog",
+        "options": [
+            "L'ukrainien, le français, le latin, le finnois, l'anglais, le fidjien, le cebuano et le tagalog",
+            "L'allemand, le japonais, le russe, le portugais, l'italien",
+            "L'espagnol, le néerlandais, le polonais, le suédois, le chinois"
+        ],
+        "explanation": "Le Simlish est un mélange de plusieurs langues réelles, dont l'ukrainien, le français, le latin, le finnois, l'anglais, le fidjien, le cebuano et le tagalog. Les développeurs ont utilisé ces influences pour créer un langage unique pour les Sims.",
+        "image": "img/question_simlish2.png"
+    },
+    {
+        "id": 5,
+        "question": "Quelle chose surprenante pouvez-vous faire dans le pack d'expansion À la Fac ?",
+        "answer": "Rejoindre une société secrète",
+        "options": [
+            "Construire une maison en miniature",
+            "Rejoindre une société secrète",
+            "Devenir un super-héros"
+        ],
+        "explanation": "Dans le pack À la Fac, vous pouvez rejoindre une société secrète, ce qui ajoute un élément intrigant à la vie universitaire de vos Sims.",
+        "image": "img/question_alafac.jpg"
+    },
+    {
+        "id": 6,
+        "question": "Quel type d'animal pouvez-vous adopter dans le pack d'expansion Chiens et Chats ?",
+        "answer": "Des animaux de compagnie",
+        "options": [
+            "Des animaux de compagnie",
+            "Des animaux sauvages",
+            "Des animaux préhistoriques"
+        ],
+        "explanation": "Le pack d'expansion Chiens et Chats vous permet d'adopter des animaux de compagnie comme des chiens et des chats, apportant une nouvelle dimension à la vie de vos Sims.",
+        "image": "img/question_catsndogs.jpg"
+    },
+    {
+        "id": 7,
+        "question": "Dans quel pack d'expansion pouvez-vous construire un manoir hanté ?",
+        "answer": "Vampires",
+        "options": [
+            "Vampires",
+            "Îles Paradisiaques",
+            "Jour de Lessive"
+        ],
+        "explanation": "Le pack Vampires permet de construire un manoir hanté, parfait pour ajouter une touche mystérieuse et surnaturelle à votre jeu.",
+        "image": "img/questions_hauntedhouse.png"
+    },
+    {
+        "id": 8,
+        "question": "Quelle est la ville fictive où les Sims peuvent faire la fête dans Les Sims 4 ?",
+        "answer": "San Myshuno",
+        "options": [
+            "San Myshuno",
+            "Willow Creek",
+            "Newcrest"
+        ],
+        "explanation": "San Myshuno est la ville introduite dans l'extension 'City Living' des Sims 4, où les Sims peuvent explorer différents quartiers urbains et participer à des festivals.",
+        "image": "img/question_ville.jpg"
+    },
+    {
+        "id": 9,
+        "question": "Quel est le nom du restaurant où les Sims peuvent travailler dans le pack d'expansion Dîner au Restaurant ?",
+        "answer": "Le Bistro",
+        "options": [
+            "Le Bistro",
+            "La Table",
+            "Le Gourmet"
+        ],
+        "explanation": "Dans le pack Dîner au Restaurant, les Sims peuvent travailler au Bistro, un restaurant où ils peuvent servir des repas raffinés.",
+        "image": "img/question_dineout.jpg"
+    },
+    {
+        "id": 10,
+        "question": "Quelle est la couleur du Plumbob quand un Sim est triste ?",
+        "answer": "Bleu",
+        "options": [
+            "Bleu",
+            "Vert",
+            "Jaune"
+        ],
+        "explanation": "Lorsque vos Sims sont tristes, le Plumbob au-dessus de leur tête devient bleu, indiquant leur état émotionnel.",
+        "image": "img/question_sad.webp"
+    }
+]

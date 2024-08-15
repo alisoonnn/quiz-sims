@@ -1,0 +1,212 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: 	#0197EC;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #FFFFFF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.correct {
+  color: #53A303;
+}
+
+.incorrect {
+  color: #E607C5;
+}
+
+.container {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+  padding: 5vh;
+}
+
+.logo-sims {
+  height: 11vh;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.img-question {
+  height: 25vh;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: bolder;
+  margin-top: 0.2vh;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+form {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-left: 1.5vh;
+  cursor: pointer;
+}
+
+
+.cont-input {
+  margin: 2vh;
+  background-color: #FFFFFF;
+  width: 30vw;
+  height: 4.5vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #0197EC;
+  font-weight: bolder;
+  padding: 1vh;
+  cursor: pointer;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.cont-input::after {
+  content: "";
+  width: 29.9vw;
+  height: 4.8vh;
+  position: absolute;
+}
+
+.cont-input.selected {
+  background-color: #e3facb;
+}
+
+.cont-input.selected::after {
+  border: #6FD904 solid 2px;
+  
+}
+
+.cont-input.correct {
+  background-color: #e3facb;
+}
+
+.cont-input.incorrect {
+  background-color: #FACDF3;
+}
+
+/* .cont-input.correct::after{
+  border: #6FD904 solid 2px;
+} */
+
+input[type="radio"] {
+  display: none; /* Cacher les boutons radio */
+}
+
+.valid-btn {
+  height: 5vh;
+  width: 12vw;
+  font-size: 1.2rem;
+  background-color: #0903A6;
+  color: white;
+  font-weight: bolder;
+  border: 0;
+  cursor: pointer;
+}
+
+.explanation {
+  position: absolute;
+  top: 25vh;
+  background-color: white;
+  color: #0903A6;
+  width: 40vw;
+  height: 35vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #0903A6 solid 3px;
+  padding-left: 7vh;
+  padding-right: 8vh;
+}
+
+.explanation p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.explanation button {
+  height: 6vh;
+  width: 15vw;
+  font-size: 1.2rem;
+  background-color: #0903A6;
+  color: white;
+  border: 0;
+  font-weight: bolder;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.quiz-completed {
+  height: 55vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #0903A6 solid 3px;
+  color: #0903A6;
+  background-color: white;
+}
+
+.quiz-completed h1 {
+  margin: 0.5vh;
+}
+
+.quiz-completed p {
+  font-size: 1.8rem;
+}
+
+.quiz-completed button {
+  font-size: 1.2rem;
+  background-color: #0903A6;
+  color: white;
+  border: 0;
+  height: 7vh;
+  width: 12vw;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.quiz-completed img {
+  height: 20vh;
+}
